@@ -8,6 +8,6 @@ SSR with Docker (preferred)
 To build and run for node.js serving with SSR, as a Docker container. As this is intended to sit alongside the Kemu Kupu API, this is the preferred approach as it can be easily combined with docker compose.
 
 ```bash
-docker build -t fsp-front-ui
-docker run -p3000:3000 fsp-front-ui
+docker build . -t front-ui
+docker run -p 3000:3000 front-ui
 ```
