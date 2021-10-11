@@ -2,7 +2,7 @@
     <div class="columns is-desktop">
         <div class="column" v-if="calculateSize()">
             <h1 class="title is-1 extended">{{title}}</h1>
-            <p class="content">{{body}}</p>
+            <p class="content is-size-4">{{body}}</p>
         </div>
         <div class="column">
             <figure class="image">
@@ -11,7 +11,7 @@
         </div>
         <div class="column" v-if="!calculateSize()">
             <h1 class="title is-1 extended">{{title}}</h1>
-            <p class="content">{{body}}</p>
+            <p class="content is-size-4">{{body}}</p>
         </div>
     </div>
 </template>

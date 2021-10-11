@@ -3,7 +3,12 @@ This is the front-facing website for the Kemu Kupu application. It's a Nuxt.js a
 
 ## Build Setup
 
-SSR with Docker (preferred)
+**Development**
+```bash
+yarn dev
+```
+
+**SSR with Docker (preferred)**
 
 To build and run for node.js serving with SSR, as a Docker container. As this is intended to sit alongside the Kemu Kupu API, this is the preferred approach as it can be easily combined with docker compose.
 
