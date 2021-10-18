@@ -70,7 +70,7 @@
 					image="profiles/serena.jpeg"
 					github="https://github.com/serenalau272"
 					linkedin="https://www.linkedin.com/in/serena-lau-2166111a0/"
-					blurb="Loves having fun with software projects and always curious to keep learning more about this big wide world 😀. Also passionate about Chopin and tiramisu macarons."
+					blurb="Loves having fun with software projects and always curious to learn more. Also passionate about Chopin and tiramisu macarons."
 				/>
 			</div>
 		</section>
