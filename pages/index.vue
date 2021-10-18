@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<div class="landingImage"></div>
-		<section class="section container column is-10 welcomeCard">
+		<div id="landingImage"></div>
+		<section id="welcomeCard" class="section container column is-10">
 			<div class="columns is-desktop ">
 				<div class="column desktop-only is-half" />
 				<div class="card column">
@@ -81,12 +81,34 @@
 import ContentPane from '~/components/ContentPane';
 import ProfileCard from '~/components/ProfileCard';
 
+function convertRemToPixels(rem) {    
+    return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
+
+
+
 export default {
 	name: 'HomePage',
-
 	components: {
 		ContentPane,
 		ProfileCard
+	},
+	created() {
+		window.addEventListener("resize", this.scaleOnSizeChange);
+	},
+	destroyed() {
+		window.removeEventListener("resize", this.scaleOnSizeChange);
+	},
+	methods: {
+		//Scale the landing page image when the page is resized
+		scaleOnSizeChange(_e) {
+			//Get height of card
+			let heightCard = document.getElementById("welcomeCard").offsetHeight + convertRemToPixels(3);
+			let heightWindow = window.innerHeight;
+			let backgroundHeight = Math.max(heightCard, heightWindow);
+			document.getElementById("landingImage").style.height = backgroundHeight + "px";
+		}
 	}
 }
 </script>
@@ -94,7 +116,7 @@ export default {
 
 <style>
 
-.landingImage {
+#landingImage {
 	height: 100vh;
 	width: 100vw;
 	background-image: url("~assets/cartoon-landscape.png");
@@ -103,7 +125,7 @@ export default {
     background-position: center center;
 }
 
-.welcomeCard {
+#welcomeCard {
 	position: absolute;
 	top: 10vh;
 	left: 8.35%;
@@ -120,7 +142,7 @@ export default {
 		height:1px;
 	}
 
-	.welcomeCard {
+	#welcomeCard {
 		position: absolute;
 		top: 20vh;
 		right: 5vw;
@@ -128,6 +150,12 @@ export default {
 
 	.desktop-only {
 		display:block;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 2em !important;
 	}
 }
 
