@@ -22,8 +22,8 @@
 		</section>
 		<section class="section container column is-10">
 			<ContentPane
-				title="Revolutionising Design!"
-				body="With our revolutionary fun and interesting design, we find that kids are quickly sucked in to Kēmu Kupu! We have accomplished this through joyful music, bright colors, and an entertaining game loop. We hope that you'll download Kēmu Kupu and give it a try!"
+				title="Client Centric: For the Kids!"
+				body="Bee themed. Fun and Colourful. Big Playful Buttons. Sound Effects. Music."
 				image="game/title.png"
 				:left="true"
 				id="about"
@@ -31,16 +31,24 @@
 			<div class="spacer-desktop" />
 			<div class="spacer-desktop" />
 			<ContentPane
-				title="Large Topic Selection!"
-				body="We here at Kēmu Kupu believe in offering a wide selection of topics to choose from in our spelling application, to cater to children from all walks of life - and aid in progression as they become more skilled at spelling. Topics such as weather, colors, and feelings are all included!"
+				title="Gamification!"
+				body="Personalisation of games. Via unlocking costumes, collecting of achievements, accummulating stars, and tracking your high score"
 				image="game/topic.png"
 				:left="false"
 			/>
 			<div class="spacer-desktop" />
 			<div class="spacer-desktop" />
 			<ContentPane
-				title="The Perfect Challenge!"
-				body="Kēmu Kupu scales with the abilities of the student! Students can compete against one another on the global leaderboard, or just work to become faster generally and increase their score. This encourages rapid learning and iteration!"
+				title="Keeping track of progress!"
+				body="Allow users to create/login/delete/modify accounts with full backend functionality so that users don't have to worry about getting back their progress. Persistent login."
+				image="game/quiz.png"
+				:left="true"
+			/>
+			<div class="spacer-desktop" />
+			<div class="spacer-desktop" />
+			<ContentPane
+				title="Extra Goodies!"
+				body="Keeping the user occupied with a spin-to-win spinning wheel, as well as custom game timers, input fields, and progress bars."
 				image="game/quiz.png"
 				:left="true"
 			/>
