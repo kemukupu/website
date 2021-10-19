@@ -31,9 +31,17 @@
 			<div class="spacer-desktop" />
 			<div class="spacer-desktop" />
 			<ContentPane
+				title="Learning at its core!"
+				body="Aiming to improve the tamariki of NZ in their proficiency of Maori in a fun and playful manner"
+				image="game/quiz.png"
+				:left="true"
+			/>
+			<div class="spacer-desktop" />
+			<div class="spacer-desktop" />
+			<ContentPane
 				title="Gamification!"
 				body="Personalisation of games. Via unlocking costumes, collecting of achievements, accummulating stars, and tracking your high score"
-				image="game/topic.png"
+				image="game/costume.png"
 				:left="false"
 			/>
 			<div class="spacer-desktop" />
@@ -41,7 +49,7 @@
 			<ContentPane
 				title="Keeping track of progress!"
 				body="Allow users to create/login/delete/modify accounts with full backend functionality so that users don't have to worry about getting back their progress. Persistent login."
-				image="game/quiz.png"
+				image="game/profile.png"
 				:left="true"
 			/>
 			<div class="spacer-desktop" />
@@ -49,7 +57,7 @@
 			<ContentPane
 				title="Extra Goodies!"
 				body="Keeping the user occupied with a spin-to-win spinning wheel, as well as custom game timers, input fields, and progress bars."
-				image="game/quiz.png"
+				image="game/spinner.png"
 				:left="true"
 			/>
 			<div class="spacer-desktop" />
