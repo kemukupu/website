@@ -13,7 +13,7 @@
 						<a class="card-footer-item is-primary is-light button m-2" href="#about">
 							Learn More
 						</a>
-						<a class="card-footer-item is-primary button m-2" href="https://github.com/SOFTENG206-2021/assignment-3-and-project-team-11">
+						<a class="card-footer-item is-primary button m-2" href="https://github.com/kemukupu">
 							Download
 						</a>
 					</div>

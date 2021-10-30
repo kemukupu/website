@@ -20,16 +20,17 @@
             <a href="#team" class="navbar-item">
                 The Team
             </a>
-            <a href="https://kemukupu.com/api/docs" class="navbar-item">
+            <!-- Disabled as the final deployment of this site is website-only, no api backing. -->
+            <!-- <a href="https://kemukupu.com/api/docs" class="navbar-item">
                 Api
                 <b-icon
                     icon="link"
                     type="is-secondary"
                     class="ml-2"
                 />
-            </a>
+            </a> -->
             <div class="navbar-item">
-                <a class="button is-primary" href="https://github.com/SOFTENG206-2021/assignment-3-and-project-team-11">
+                <a class="button is-primary" href="https://github.com/kemukupu">
                     Download
                 </a>
             </div>
